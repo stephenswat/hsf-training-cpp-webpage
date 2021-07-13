@@ -1,3 +1,20 @@
+# READ ME FIRST
+
+This is an attempt at minimizing the HSF file structure to simplify code sharing
+between trainings. Things also work slighly differently. You will need to do a
+one-time setup first, to install dependencies:
+
+```bash
+bundle config set --local path .vendor/bundle
+bundle install
+```
+
+From that point forward, you can serve the site using
+
+```bash
+bundle exec jekyll serve
+```
+
 # Basic Modern C++
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
