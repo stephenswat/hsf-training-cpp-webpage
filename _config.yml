@@ -103,3 +103,5 @@ exclude:
 highlighter: rouge
 
 show_authors: true
+
+theme: hsf-training-theme
